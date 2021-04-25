@@ -10,11 +10,11 @@ void my_strcpy(char* dest, char* str)
 		dest++;
 		str++;
 	}
-	*dest = *str;//´ËÊ±*strÊÇ'\0'
+	*dest = *str;//æ­¤æ—¶stræŒ‡å‘'\0'
 }
 int main()
 {
-	//strcpy ×Ö·û´®¿½±´
+	//strcpy å­—ç¬¦ä¸²æ‹·è´
 	char arr1[] = "#######";
 	char arr2[] = "love";
 	my_strcpy(arr1,arr2);
